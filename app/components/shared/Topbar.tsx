@@ -1,8 +1,8 @@
-function Topbar(){
+function TopBar(){
     return(<>
-    <h1>Topbar</h1>
+    <h1>TopBar</h1>
     </>)
 
 }
 
-export default Topbar;
+export default TopBar;

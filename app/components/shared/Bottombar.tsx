@@ -1,8 +1,8 @@
-function Bottombar(){
+function BottomBar(){
     return(<>
-    <h1>bottombar</h1>
+    <h1>BottomBar</h1>
     </>)
 
 }
 
-export default Bottombar;
+export default BottomBar;

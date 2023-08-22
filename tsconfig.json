@@ -21,6 +21,9 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@constants*": ["constants"],
+      "@components*": ["components/*"],
+
       "@/*": ["./*"]
     }
   },

@@ -1,7 +1,7 @@
 function BottomBar(){
-    return(<>
+    return(
     <h1>BottomBar</h1>
-    </>)
+   )
 
 }
 

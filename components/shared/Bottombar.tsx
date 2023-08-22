@@ -1,9 +1,7 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
 import { sidebarLinks } from '@constants'
 
 function BottomBar() {
@@ -16,7 +14,6 @@ function BottomBar() {
                     const isActive =
                         (pathname.includes(link.route) && link.route.length > 1) ||
                         pathname === link.route;
-
                     return (
                         <Link
                             href={link.route}
